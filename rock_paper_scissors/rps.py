@@ -17,15 +17,15 @@ def rock_paper_scissors(n):
         
         return allPossibilities
 
-result = rock_paper_scissors(14)
+result = rock_paper_scissors(2)
 
 for r in result:
     print(r)
 
 
-# if __name__ == "__main__":
-#   if len(sys.argv) > 1:
-#     num_plays = int(sys.argv[1])
-#     print(rock_paper_scissors(num_plays))
-#   else:
-#     print('Usage: rps.py [num_plays]')
+if __name__ == "__main__":
+  if len(sys.argv) > 1:
+    num_plays = int(sys.argv[1])
+    print(rock_paper_scissors(num_plays))
+  else:
+    print('Usage: rps.py [num_plays]')
